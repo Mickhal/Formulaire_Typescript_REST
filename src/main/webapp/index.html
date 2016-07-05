@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="FormulaireSkwarel">
+<head>
+	<title>Index TypeScript</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/lib/angular.js"></script>
+	<script type="text/javascript" src="js/lib/angular-route.js"></script>
+	<script src="js/lib/angular-resource.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.js"></script>
+    <script src="js/lib/lodash.js"></script>
+    <script >		_.contains = _.includes;</script>
+    <script src="js/lib/restangular.js"></script>
+
+	<script type="text/javascript" src="js/app/app.js"></script>
+	<script type="text/javascript" src="js/classes/User.js"></script>
+
+	<script type="text/javascript" src="js/controllers/UserController.js"></script>
+</head>
+<header> 
+	<h3 id="titreHead">Skwarel, la solution digitale <img id="logo" src="images/logo.png">
+	</h3>
+</header>	
+
+<body>
+	<a href="#/page1">Page 1</a>
+	<a href="#/page2">Page 2</a>
+	<a href="#/page3">Page 3</a>
+    <br>
+    <br>
+	<div ng-view></div>
+
+</body>
+<footer> <center><h3 id="titreFooter" >"Les fiduciaires, nous en faisons notre affaire"</h3></center> </footer>
+</html>
